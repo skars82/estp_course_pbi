@@ -1,0 +1,13 @@
+name: "Introduction to business intelligence in public statistics (Power BI)"
+title: "ESTP-course in Power BI"
+description: |
+  powerbi
+theme: style.css
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article
