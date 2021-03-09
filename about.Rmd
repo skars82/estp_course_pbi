@@ -1,10 +1,25 @@
 ---
-title: "About this site"
-description: |
-  Some additional details about the website
+title: "Øyvind Bruer-Skarsbø"
+image: "pictures/obr.jpg"
+links:
+  - label: Twitter
+    url: "https://twitter.com/YSkarsb"
+  - label: GitHub
+    url: "https://github.com/skars82"
+  - label: Email
+    url: "mailto:obr@ssb.no"
+output:
+  postcards::trestles
 ---
+ 
+## Bio
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+Senior advisor at Statistics Norway. 
+
+## Education
+
+**University of Oslo** 
+
+Master in Economics  
+
 
