@@ -24,7 +24,10 @@ is no need to install anything more. PLease download the latest version.
 
 ## 1.2 Settings
 
+We recommend to choose the following settings in Power BI desktop: 
 
+- Set english as the language. 
+- 
 
 # 2. Getting started
 
