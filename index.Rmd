@@ -18,7 +18,7 @@ type of data ususally seen in the production of official staistics.
 
 # 1. Installation
 
-The only prerequisite for attending the course is that you Power BI Desktop installed on a computer that 
+The only prerequisite for attending the course is that you have [Power BI Desktop installed on a computer](https://powerbi.microsoft.com/en-us/downloads/) that 
 is at your disposal during the 3-day course. We will only use the Desktop-software, which is free, so there
 is no need to install anything more. PLease download the latest version.
 
