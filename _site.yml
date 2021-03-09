@@ -5,6 +5,7 @@ description: |
 theme: style.css
 output_dir: "docs"
 navbar:
+  logo: pictures/logo.png
   right:
     - text: "Home"
       href: index.html
