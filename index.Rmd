@@ -1,18 +1,26 @@
 ---
-title: "Introduction to business intelligence in public statistics (Power BI)"
+title: "ESTP-course in BI with Power BI"
 description: |
-  Information about the ESTP-webinar in Power BI held on the 22.-24. april 2021.  
+  Information about the ESTP-webinar on Power BI held on the 22.-24. april 2021.  
 site: distill::distill_website
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
 ```
+
+# Introduction
+
+# 1. Installation
+
+## 1.2 Settings
+
+# 2. Getting started
+
+## 2.1 Videos
+
+This video gives you a nice introduction to what Power BI is:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Vqz2d7pTOV8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 

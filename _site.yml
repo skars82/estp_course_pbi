@@ -1,11 +1,12 @@
-name: "Introduction to business intelligence in public statistics (Power BI)"
-title: "ESTP-course in Power BI"
+name: "Introduction to business intelligence in public statistics"
+title: "Introduction to business intelligence in public statistics"
 description: |
   powerbi
 theme: style.css
 output_dir: "docs"
 navbar:
   logo: pictures/logo.png
+  search: true
   right:
     - text: "Home"
       href: index.html
@@ -13,4 +14,9 @@ navbar:
       href: about.html
     - text: "Slides"
       href: Slides.html
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    toc: true
+    toc_debth: 2
+    toc_float: true
+    code_folding: false
