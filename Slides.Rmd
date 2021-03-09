@@ -1,0 +1,17 @@
+---
+title: "Slides"
+description: |
+  Here you will find the slides for the course. 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+* [Day 1: Introducing business intelligence and Power BI](slides_day1.html)
+
+* [Day 2: More advanced topics](slides_day2.html)
+
+
+
