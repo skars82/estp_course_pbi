@@ -2,17 +2,18 @@
 title: "Itinerary"
 description: |
   Detailed plan for the 3-day-course
-author:
-  - name: Øyvind Bruer-Skarsbø
-date: "`r Sys.Date()`"
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    toc: true
+    toc_debth: 2
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-**DAY 1:**
+# **DAY 1**
 
 
 | What                                                                      | Who         | Time          |
@@ -38,5 +39,20 @@ knitr::opts_chunk$set(echo = FALSE)
 | Walking through the assigment for day 2                                   | Øyvind      | 15.45 - 16.15 |
 
 
+# **DAY 2**
 
+Participants work on their own project. 
 
+# **DAY 3**
+
+| What                                                    | Who    | Time          |
+| ------------------------------------------------------- | ------ | ------------- |
+| Show and tell: participants share their projects        |        | 09.00 - 09.30 |
+| Modern visualization: the importance of the web browser | Carl   | 09.30 - 10.00 |
+| Import data from Eurostat API                           | Carl   | 10.00 - 10.15 |
+| Break                                                   |        | 10.15 - 10.30 |
+| Task: Import data from EUROSTAT                         |        | 10.30 - 10.45 |
+| Import classifications                                  | Carl   | 10.45 - 11.00 |
+| Task: Import classifications                            |        | 11.00 - 11.15 |
+| Break                                                   |        | 11.15 - 11.30 |
+| Using R and Python in Power BI                          | Øyvind | 11.30 - 12.00 |
