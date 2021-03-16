@@ -1,0 +1,45 @@
+---
+title: "Itinerary"
+description: |
+  Detailed plan for the 3-day-course
+author:
+  - name: Øyvind Bruer-Skarsbø
+    url: https://example.com/norajones
+    affiliation: Spacely Sprockets
+    affiliation_url: https://example.com/spacelysprokets
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+**DAY 1:**
+
+
+| What                                                                      | Who         | Time          |
+| ------------------------------------------------------------------------- | ----------- | ------------- |
+| Introduction to the course                                                | Øyvind      | 09.00 - 09.30 |
+| Fundamentals of Power BI                                                  | Carl        | 09.30 - 10.00 |
+| Break                                                                     |             | 10.00 - 10.15 |
+| Task: Importing data and creating a visual                                | Øyvind/Carl | 10.15 - 10.30 |
+| Building a data model                                                     | Øyvind      | 10.30 - 11.00 |
+| Break                                                                     |             | 11.00 - 11.15 |
+| Task: Importing more data and building a data model                       | Øyvind/Carl | 11.15 - 11.30 |
+| Cleaning data in Power Query                                              | Øyvind      | 11.30 - 12.00 |
+| Lunch                                                                     |             | 12.00 - 12.30 |
+| Task: Find the errors in the data and fix them                            |             | 12.30 - 12.45 |
+| Measures: the optimal way to do calculations                              | Øyvind      | 12.45 - 13.15 |
+| Break                                                                     |             | 13.15 - 13.30 |
+| Task: Create your own measures and visualize them                         |             | 13.30 - 13.45 |
+| Beautify your report                                                      | Øyvind      | 13.45 - 14.15 |
+| Break                                                                     |             | 14.15 - 14.30 |
+| Task: Change the background and colors of your dashboard                  |             | 14.30 - 14.45 |
+| Filter context and drilldown                                              | Øyvind      | 14.45 - 15.15 |
+| Task: Change the context of different visuals and create a drilldown page |             | 15.15 - 15.45 |
+| Walking through the assigment for day 2                                   | Øyvind      | 15.45 - 16.15 |
+
+
+
+
