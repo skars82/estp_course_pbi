@@ -10,6 +10,9 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+```{r embed-xaringan, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "https://skars82.github.io/slides/estp_course_powerbi/day1.html", ratio = "4:3")
+```
 
 
 

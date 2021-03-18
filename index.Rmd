@@ -1,7 +1,7 @@
 ---
 title: "ESTP-course in BI with Power BI"
 description: |
-  Information about the ESTP-webinar on Power BI held on the 22.-24. april 2021.  
+  Information about the ESTP-webinar on Power BI held on the 22.-22. april 2021.  
 site: distill::distill_website
 ---
 
@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 This course/webinar is intended for newcomers to Power BI, who want to learn more about how to use
 a business intelligence tool like Power BI to visualize data. The course is also geared towards the 
-type of data ususally seen in the production of official staistics.  
+type of data ususally seen in the production of official statistics.  
 
 
 # 1. Installation
