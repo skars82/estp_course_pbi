@@ -9,6 +9,30 @@ site: distill::distill_website
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+```{r, echo=FALSE}
+library(metathis)
+library(magrittr)
+
+meta() %>%
+  meta_description(
+    "ESTP-course on Power BI in april of 2021."
+  ) %>% 
+  meta_name("github-repo" = "skars82/estp_course_pbi") %>% 
+  meta_viewport() %>% 
+  meta_social(
+    title = "Introduction to business intelligence in public statistics (Power BI)",
+    url = "https://skars82.github.io/estp_course_pbi/",
+    image = "https://github.com/skars82/slides/blob/master/docs/estp_course_powerbi/pictures/twitter_slide.png)",
+    image_alt = "Title slide of first day",
+    og_type = "Course",
+    og_author = c("Øyvind Bruer-Skarsbø", "Carl Franklin Corneil"),
+    twitter_card_type = "summary",
+    twitter_creator = "@YSkarsb"
+  )
+
+```
+
+
 # Introduction
 
 This course/webinar is intended for newcomers to Power BI, who want to learn more about how to use
