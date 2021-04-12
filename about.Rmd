@@ -6,13 +6,13 @@ output:
 ---
 
 
-![Øyvind Bruer-Skarsbø](pictures/obr2.png){height=50% width=50%}
+![Øyvind Bruer-Skarsbø](pictures/obr2.png)
 
 *I have been working with labour market statistics and business statistics for 5 years at [Statistics Norway](https://www.ssb.no/en/). I also have a special interest in tools related visualizations, such as R and Power BI.*
 
 
 
-![Carl Franklin Corneil](pictures/Carl_bg.png){height=50% width=50%}
+![Carl Franklin Corneil](pictures/Carl_bg.png)
 
 
 
