@@ -106,7 +106,7 @@ Import data from KLASS
 
 #### "Get data > Blank query > Advanced Editor":
 <script src="https://gist.github.com/aecorn/a3f42cc730f12d6b8070ebf6e7d1da1e.js"></script>
-### 5.2.2 Import data from STATBANK
+### 2.7 Import data from STATBANK
 
 <iframe src="https://player.vimeo.com/video/305761177?color=90cc93&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
