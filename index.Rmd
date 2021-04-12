@@ -33,55 +33,53 @@ meta() %>%
 ```
 
 
-# Introduction
+## Introduction
 
 This course/webinar is intended for newcomers to Power BI, who want to learn more about how to use
 a business intelligence tool like Power BI to visualize data. The course is also geared towards the 
 type of data ususally seen in the production of official statistics.  
 
 
-# 1. Installation
+## 1. Installation
 
 The only prerequisite for attending the course is that you have [Power BI Desktop installed on a computer](https://powerbi.microsoft.com/en-us/downloads/) that 
 is at your disposal during the 3-day course. We will only use the Desktop-software, which is free, so there
 is no need to install anything more. Please download the latest version.
 
-## 1.2 Settings
+### 1.2 Recommended settings
 
 We recommend to choose the following settings in Power BI desktop: 
 
 - Set english as the language. 
 - Security > Allow Data Extensions
 
-# 2. Getting started
+## 2. Resources
 
-## 2.1 Introduction video
+### 2.1 What is Power BI?
 
 This video gives you a nice introduction to what Power BI is:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vqz2d7pTOV8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# 3. Day 1
+### 2.2 Fundamentals Power BI and data visualization
 
-## 3.1 Fundamentals Power BI and data visualization
 - Power BIs platform for sharing reports
 - Pareto principle - COCOMO (wikipedia)
 - Download powerpoint: 
 
-## 3.2 Importing data and creating a report
+### 2.3 Importing data and creating a report
 <a href="../data/companies_2020_10000_v001.csv">CSV-download</a>
 
 <iframe src="https://player.vimeo.com/video/305761177?color=90cc93&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-## 3.3 Build data model with more data
+### 2.4 Build data model with more data
 Nace-code descriptions from Eurostat: <a href="https://ec.europa.eu/eurostat/web/nace-rev2/correspondence_tables"> Excelfile </a>
 
 
 <iframe src="https://player.vimeo.com/video/305761177?color=90cc93&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-# 5. Day 3 
 
-## 5.1 Import data from Eurostat API using a custom connector
+### 2.5 Import data from Eurostat API using a custom connector
 
 <iframe src="https://player.vimeo.com/video/305761177?color=90cc93&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
@@ -93,9 +91,9 @@ Nace-code descriptions from Eurostat: <a href="https://ec.europa.eu/eurostat/web
 
 
 
-## 5.2 Import data from SSBs APIs
+### 2.6 Import data from SSBs APIs
 
-### 5.2.1 Import data from KLASS
+Import data from KLASS
 
 <iframe src="https://player.vimeo.com/video/305761177?color=90cc93&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
