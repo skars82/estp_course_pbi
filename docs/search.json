@@ -4,8 +4,8 @@
       "path": "about.html",
       "title": "About",
       "author": [],
-      "contents": "\r\n\r\nI have been working with labour market statistics and business statistics for 5 years at Statistics Norway. I also have a special interest in tools related visualizations, such as R and Power BI.\r\n\r\nØyvind Bruer-SkarsbøCarl Franklin Corneil\r\n\r\n\r\n",
-      "last_modified": "2021-04-12T12:13:28+02:00"
+      "contents": "\r\nØyvind Bruer-SkarsbøI have been working with labour market statistics and business statistics for 5 years at Statistics Norway. I also have a special interest in tools related visualizations, such as R and Power BI.\r\nCarl Franklin Corneil\r\n\r\n\r\n",
+      "last_modified": "2021-04-12T12:20:13+02:00"
     },
     {
       "path": "index.html",
@@ -13,7 +13,7 @@
       "description": "Information about the ESTP-webinar on Power BI held on the 22.-22. april 2021.  \n",
       "author": [],
       "contents": "\r\n\r\nContents\r\nIntroduction\r\n1. Installation\r\n1.2 Settings\r\n\r\n2. Getting started\r\n2.1 Introduction video\r\n\r\n3. Day 1\r\n3.1 Fundamentals Power BI and data visualization\r\n3.2 Importing data and creating a report\r\n3.3 Build data model with more data\r\n\r\n5. Day 3\r\n5.1 Import data from Eurostat API using a custom connector\r\n5.2 Import data from SSBs APIs\r\n5.2.1 Import data from KLASS\r\n5.2.2 Import data from STATBANK\r\n\r\n\r\n\r\n\r\n\r\n\r\nIntroduction\r\nThis course/webinar is intended for newcomers to Power BI, who want to learn more about how to use a business intelligence tool like Power BI to visualize data. The course is also geared towards the type of data ususally seen in the production of official statistics.\r\n1. Installation\r\nThe only prerequisite for attending the course is that you have Power BI Desktop installed on a computer that is at your disposal during the 3-day course. We will only use the Desktop-software, which is free, so there is no need to install anything more. Please download the latest version.\r\n1.2 Settings\r\nWe recommend to choose the following settings in Power BI desktop:\r\nSet english as the language.\r\nSecurity > Allow Data Extensions\r\n2. Getting started\r\n2.1 Introduction video\r\nThis video gives you a nice introduction to what Power BI is:\r\n\r\n\r\n3. Day 1\r\n3.1 Fundamentals Power BI and data visualization\r\nPower BIs platform for sharing reports\r\nPareto principle - COCOMO (wikipedia)\r\nDownload powerpoint:\r\n3.2 Importing data and creating a report\r\nCSV-download\r\n\r\n\r\n3.3 Build data model with more data\r\nNace-code descriptions from Eurostat:  Excelfile \r\n\r\n\r\n5. Day 3\r\n5.1 Import data from Eurostat API using a custom connector\r\n\r\n\r\nDownload the connector .mez-file: press download on this page\"\r\nMake a folder here: ‘C:\\Users\\[username]\\Documents\\Microsoft Power BI Desktop\\Custom Connectors’\r\nAdd the .mez-file in the folder\r\nChange setting in Power BI > Security > Allow Data Extensions, restart Power BI\r\n5.2 Import data from SSBs APIs\r\n5.2.1 Import data from KLASS\r\n\r\n\r\nssb.no/en/klass/\r\nBrowse to the variant or correspondance you are after\r\nNote id at the end of the URL\r\nChange the code to reflect the ID, or maybe klassType to “variants”\r\nCheck the documentation of the API: data.ssb.no/api/klass\"\r\n“Get data > Blank query > Advanced Editor”:\r\n5.2.2 Import data from STATBANK\r\n\r\n\r\nssb.no/en/statbank\r\nFind the ID of the table you want to get info from\r\nExpand the “API-query box” at the bottom of the page after following the whole web-interface.\r\nYou might have to replace single double-quotes, with double double-quotes.\r\n“Get data > Blank query > Advanced Editor”:\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-12T12:13:29+02:00"
+      "last_modified": "2021-04-12T12:20:14+02:00"
     },
     {
       "path": "itinerary.html",
@@ -21,7 +21,7 @@
       "description": "Detailed plan for the 3-day-course\n",
       "author": [],
       "contents": "\r\n\r\nContents\r\nDAY 1: 09.00 - 16.15\r\nDAY 2\r\nDAY 3: 09.00-16.15\r\n\r\nDAY 1: 09.00 - 16.15\r\nWhat\r\nWho\r\nIntroduction\r\nØyvind\r\nFundamentals of Power BI\r\nCarl\r\nImporting data\r\nØyvind\r\nCleaning data\r\nØyvind\r\nBuilding a data model\r\nØyvind\r\nVisualizations\r\nCarl\r\nCalculations\r\nØyvind\r\nBeautify your report\r\nØyvind\r\nSome more advanced features\r\nØyvind\r\nDAY 2\r\nParticipants work on their own project the whole day.\r\nDAY 3: 09.00-16.15\r\nWhat\r\nWho\r\nShow and tell of projects\r\n\r\nThe importance of the browser\r\nCarl\r\nImporting data from Eurostat\r\nCarl\r\nImporting classifications\r\nCarl\r\nUsing R and Python in Power BI\r\nØyvind/Carl\r\nButton and bookmarks\r\nØyvind\r\nPublishing your report\r\nØyvind\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-12T12:13:30+02:00"
+      "last_modified": "2021-04-12T12:20:15+02:00"
     },
     {
       "path": "Slides.html",
@@ -29,7 +29,7 @@
       "description": "Here are the slides for course\n",
       "author": [],
       "contents": "\r\n\r\n.shareagain-bar {\r\n--shareagain-foreground: rgb(255, 255, 255);\r\n--shareagain-background: rgba(0, 0, 0, 0.5);\r\n--shareagain-facebook: none;\r\n--shareagain-pinterest: none;\r\n--shareagain-reddit: none;\r\n}\r\n\r\n\r\n\r\nfitvids('.shareagain', {players: 'iframe'});\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-12T12:13:31+02:00"
+      "last_modified": "2021-04-12T12:20:16+02:00"
     }
   ],
   "collections": []
