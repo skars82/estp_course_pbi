@@ -65,6 +65,8 @@ This video gives you a nice introduction to what Power BI is:
 
 - Power BIs platform for sharing reports
 
+<!--
+
 ### 2.3 Importing data and creating a report
 <a href="../data/companies_2020_10000_v001.csv">CSV-download</a>
 
@@ -76,9 +78,11 @@ Nace-code descriptions from Eurostat: <a href="https://ec.europa.eu/eurostat/web
 
 <iframe src="https://player.vimeo.com/video/305761177?color=90cc93&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
+-->
+
 ### 2.5 Themes and sharing JSON-files
 <iframe src="https://player.vimeo.com/video/537137641?color=90cc93&portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-
+<a href="https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes">Documentation: Use report themes in Power BI Desktop</a>
 
 ### 2.6 Import data from Eurostat API using a custom connector
 <iframe src="https://player.vimeo.com/video/536746730?color=90cc93&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
@@ -90,7 +94,7 @@ Nace-code descriptions from Eurostat: <a href="https://ec.europa.eu/eurostat/web
 - Change setting in Power BI > Security > Allow Data Extensions, restart Power BI
 
 
-
+<!--
 
 ### 2.7 Import data from SSBs APIs
 
@@ -104,6 +108,9 @@ Import data from KLASS
 - Note id at the end of the URL
 - Change the code to reflect the ID, or maybe klassType to "variants"
 - Check the documentation of the API: <a href="https://data.ssb.no/api/klass/v1/api-guide.html">data.ssb.no/api/klass"</a>
+
+
+-->
 
 #### "Get data > Blank query > Advanced Editor":
 <script src="https://gist.github.com/aecorn/a3f42cc730f12d6b8070ebf6e7d1da1e.js"></script>
