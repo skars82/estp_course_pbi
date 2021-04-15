@@ -1,7 +1,7 @@
 ---
 title: "ESTP-course in BI with Power BI"
 description: |
-  Information about the ESTP-webinar on Power BI held on the 22.-22. april 2021.  
+  Information about the ESTP-webinar on Power BI held on the 20.-22. april 2021.  
 site: distill::distill_website
 ---
 
@@ -64,8 +64,6 @@ This video gives you a nice introduction to what Power BI is:
 ### 2.2 Fundamentals Power BI and data visualization
 
 - Power BIs platform for sharing reports
-- Pareto principle - COCOMO (wikipedia)
-- Download powerpoint: 
 
 ### 2.3 Importing data and creating a report
 <a href="../data/companies_2020_10000_v001.csv">CSV-download</a>
@@ -80,8 +78,8 @@ Nace-code descriptions from Eurostat: <a href="https://ec.europa.eu/eurostat/web
 
 
 ### 2.5 Import data from Eurostat API using a custom connector
+<iframe src="https://player.vimeo.com/video/536746730?color=90cc93&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-<iframe src="https://player.vimeo.com/video/305761177?color=90cc93&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 - Download the connector .mez-file: <a href="https://github.com/eurostat/PowerBI-connector/blob/master/Eurostat%20API.mez">press download on this page"</a>
 - Make a folder here: 'C:\\Users\\[username]\\Documents\\Microsoft Power BI Desktop\\Custom Connectors'
@@ -108,7 +106,9 @@ Import data from KLASS
 <script src="https://gist.github.com/aecorn/a3f42cc730f12d6b8070ebf6e7d1da1e.js"></script>
 ### 2.7 Import data from STATBANK
 
-<iframe src="https://player.vimeo.com/video/305761177?color=90cc93&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/536752553?color=90cc93&portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+<iframe src="https://player.vimeo.com/video/536754342?color=90cc93&portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 <a href="https://www.ssb.no/en/statbank">ssb.no/en/statbank</a>
 
@@ -116,8 +116,14 @@ Import data from KLASS
 - Expand the "API-query box" at the bottom of the page after following the whole web-interface.
 - You might have to replace single double-quotes, with double double-quotes.
 
+<iframe src="https://player.vimeo.com/video/536743890?color=90cc93&portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
 #### "Get data > Blank query > Advanced Editor":
 <script src="https://gist.github.com/aecorn/0adf2cf352a889a769bb5f63c6a59a0d.js"></script>
 
 
+
+### 2.8 Visualize with Python and Seaborn
+<iframe src="https://player.vimeo.com/video/536747489?color=90cc93&portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
