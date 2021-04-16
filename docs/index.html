@@ -2445,6 +2445,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <li><a href="#fundamentals-power-bi-and-data-visualization">2.2 Fundamentals Power BI and data visualization</a></li>
 <li><a href="#themes-and-sharing-json-files">2.5 Themes and sharing JSON-files</a></li>
 <li><a href="#import-data-from-eurostat-api-using-a-custom-connector">2.6 Import data from Eurostat API using a custom connector</a></li>
+<li><a href="#import-nace-codelist-from-eurostat">2.7 Import NACE-codelist from Eurostat</a></li>
+<li><a href="#import-data-from-ssbs-apis---import-data-from-klass">2.7 Import data from SSBs APIs - Import data from KLASS</a></li>
 <li><a href="#import-data-from-statbank">2.8 Import data from STATBANK</a></li>
 <li><a href="#visualize-with-python-and-seaborn">2.9 Visualize with Python and Seaborn</a></li>
 </ul></li>
@@ -2492,33 +2494,31 @@ Nace-code descriptions from Eurostat: <a href="https://ec.europa.eu/eurostat/web
 </iframe>
 <p><a href="https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes">Documentation: Use report themes in Power BI Desktop</a></p>
 <h3 id="import-data-from-eurostat-api-using-a-custom-connector">2.6 Import data from Eurostat API using a custom connector</h3>
-<iframe src="https://player.vimeo.com/video/536746730?color=90cc93&amp;portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+<iframe src="https://player.vimeo.com/video/536746730?color=90cc93&amp;portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
 </iframe>
 <ul>
-<li>Download the connector .mez-file: <a href="https://github.com/eurostat/PowerBI-connector/blob/master/Eurostat%20API.mez">press download on this page"</a></li>
+<li>Download the connector .mez-file: <a href="https://github.com/eurostat/PowerBI-connector/blob/master/Eurostat%20API.mez" target="_blank" >press download on this page"</a></li>
 <li>Make a folder here: ‘C:\Users\[username]\Documents\Microsoft Power BI Desktop\Custom Connectors’</li>
 <li>Add the .mez-file in the folder</li>
 <li>Change setting in Power BI &gt; Security &gt; Allow Data Extensions, restart Power BI</li>
 </ul>
-<!--
-
-### 2.7 Import data from SSBs APIs
-
-Import data from KLASS
-
-<iframe src="https://player.vimeo.com/video/305761177?color=90cc93&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-
-<a href="https://www.ssb.no/en/klass/">ssb.no/en/klass/</a>
-
-- Browse to the variant or correspondance you are after
-- Note id at the end of the URL
-- Change the code to reflect the ID, or maybe klassType to "variants"
-- Check the documentation of the API: <a href="https://data.ssb.no/api/klass/v1/api-guide.html">data.ssb.no/api/klass"</a>
-
-
--->
-<h4 id="get-data-blank-query-advanced-editor">“Get data &gt; Blank query &gt; Advanced Editor”:</h4>
+<h3 id="import-nace-codelist-from-eurostat">2.7 Import NACE-codelist from Eurostat</h3>
+<h3 id="import-data-from-ssbs-apis---import-data-from-klass">2.7 Import data from SSBs APIs - Import data from KLASS</h3>
+<iframe src="https://player.vimeo.com/video/537588889?color=90cc93&amp;portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+</iframe>
+<p><a href="https://www.ssb.no/en/klass/">ssb.no/en/klass/</a></p>
+<ul>
+<li>Browse to the variant or correspondance you are after</li>
+<li>Note id at the end of the URL</li>
+<li>Change the code to reflect the ID, or maybe klassType to “variants” / “versions” etc.</li>
+<li>Check the documentation of the API: <a href="https://data.ssb.no/api/klass/v1/api-guide.html">data.ssb.no/api/klass"</a></li>
+</ul>
+<details>
+<summary>
+Code to paste under: “Get data &gt; Blank query &gt; Advanced Editor”
+</summary>
 <script src="https://gist.github.com/aecorn/a3f42cc730f12d6b8070ebf6e7d1da1e.js"></script>
+</details>
 <h3 id="import-data-from-statbank">2.8 Import data from STATBANK</h3>
 <iframe src="https://player.vimeo.com/video/536752553?color=90cc93&amp;portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
 </iframe>
@@ -2530,10 +2530,20 @@ Import data from KLASS
 <li>Expand the “API-query box” at the bottom of the page after following the whole web-interface.</li>
 <li>You might have to replace single double-quotes, with double double-quotes.</li>
 </ul>
+<details>
+<summary>
+Code to paste under: Get data &gt; Blank query &gt; Advanced Editor
+</summary>
+<script src="https://gist.github.com/aecorn/0adf2cf352a889a769bb5f63c6a59a0d.js"></script>
+</details>
 <iframe src="https://player.vimeo.com/video/536743890?color=90cc93&amp;portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
 </iframe>
-<h4 id="get-data-blank-query-advanced-editor-1">“Get data &gt; Blank query &gt; Advanced Editor”:</h4>
-<script src="https://gist.github.com/aecorn/0adf2cf352a889a769bb5f63c6a59a0d.js"></script>
+<details>
+<summary>
+Working example of Python-script for getting a statbank table.
+</summary>
+<script src="https://gist.github.com/aecorn/e833246f39255df94e3876c467b3046b.js"></script>
+</details>
 <h3 id="visualize-with-python-and-seaborn">2.9 Visualize with Python and Seaborn</h3>
 <iframe src="https://player.vimeo.com/video/536747489?color=90cc93&amp;portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
 </iframe>
