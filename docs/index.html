@@ -2189,10 +2189,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* Add any additional CSS rules below                      */
 
   body {
-    
     background-color: #F9FAFA;
-
   }
+
+
+  ul {
+    list-style: none;
+  }
+
+  li::before {
+    content: "• ";
+    color: #F2C811;
+    padding-right: 10px;
+  }
+
+  details > summary {
+    background-color: #F2C811;
+    color: #F9FAFA;
+    cursor: pointer;
+    padding: 4px;
+    margin: 0;
+    /*box-shadow: 1px 1px 2px #bbbbbb;*/
+  }
+
 
 
   </style>
@@ -2483,7 +2502,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <p>Since I mentioned template-projects and parameters, Im also gonna share a video that shows how to set ut up:</p>
 <p><strong>Parameters and template-projects</strong> <iframe width="560" height="315" src="https://www.youtube.com/embed/JlUfz18cx_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <h3 id="themes-and-sharing-json-files">2.4 Themes and sharing JSON-files</h3>
-<p>Colors, fonts and other design-elements are inevitably a big part visualizing data, and are usually subject to stricts rules from your organization. We recommend that apply the desired design-principles using json-files. Its really easy and very fast. Check out this video that Carl made:</p>
+<p>Colors, fonts and other design-elements are inevitably a big part visualizing data, and are usually subject to stricts rules from your organization. We recommend that apply the desired design-principles using json-files in Power BI. Its really easy and very fast. Check out this video that Carl made:</p>
 <p><strong>Themes with json</strong> <iframe src="https://player.vimeo.com/video/537137641?color=90cc93&portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> <a href="https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes">Official documentation: Use report themes in Power BI Desktop</a></p>
 <h3 id="import-data-from-eurostat-api-using-a-custom-connector">2.5 Import data from Eurostat API using a custom connector</h3>
 <p>We just found out about this trick a few weeks ago, through <a href="https://github.com/eurostat/PowerBI-connector">Eurostats Github-page</a>. Please take advantage of all the great data thats in these databases. Again, Carl shows you how:</p>

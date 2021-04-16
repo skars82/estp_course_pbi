@@ -92,7 +92,7 @@ Since I mentioned template-projects and parameters, Im also gonna share a video 
 
 ### 2.4 Themes and sharing JSON-files
 
-Colors, fonts and other design-elements are inevitably a big part visualizing data, and are usually subject to stricts rules from your organization. We recommend that apply the desired design-principles using json-files. Its really easy and very fast. Check out this video that Carl made:
+Colors, fonts and other design-elements are inevitably a big part visualizing data, and are usually subject to stricts rules from your organization. We recommend that apply the desired design-principles using json-files in Power BI. Its really easy and very fast. Check out this video that Carl made:
 
 **Themes with json**
 <iframe src="https://player.vimeo.com/video/537137641?color=90cc93&portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>

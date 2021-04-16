@@ -77,10 +77,29 @@ d-appendix {
 /* Add any additional CSS rules below                      */
 
 body {
-  
   background-color: #F9FAFA;
-
 }
+
+
+ul {
+  list-style: none;
+}
+
+li::before {
+  content: "• ";
+  color: #F2C811;
+  padding-right: 10px;
+}
+
+details > summary {
+  background-color: #F2C811;
+  color: #F9FAFA;
+  cursor: pointer;
+  padding: 4px;
+  margin: 0;
+  /*box-shadow: 1px 1px 2px #bbbbbb;*/
+}
+
 
 
 
