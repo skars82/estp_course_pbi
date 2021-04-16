@@ -2443,8 +2443,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <ul>
 <li><a href="#what-is-power-bi">2.1 What is Power BI?</a></li>
 <li><a href="#importing-data">2.2 Importing data</a></li>
-<li><a href="#importing-data-and-creating-a-report">2.3 Importing data and creating a report</a></li>
-<li><a href="#build-data-model-with-more-data">2.4 Build data model with more data</a></li>
+<li><a href="#building-a-data-model">2.3 Building a data model</a></li>
 <li><a href="#themes-and-sharing-json-files">2.5 Themes and sharing JSON-files</a></li>
 <li><a href="#import-data-from-eurostat-api-using-a-custom-connector">2.6 Import data from Eurostat API using a custom connector</a></li>
 <li><a href="#import-data-from-ssbs-apis---import-data-from-klass">2.7 Import data from SSBs APIs - Import data from KLASS</a></li>
@@ -2476,12 +2475,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <p>Importing data is fundamental step in data-tool. Power BI makes this very easy and can connect a large amount of data sources:</p>
 <p><strong>Importing csv-files</strong> <iframe width="560" height="315" src="https://www.youtube.com/embed/wuLnv3QJCHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <p><strong>Example with a SQL server database (with parameters)</strong> <iframe width="560" height="315" src="https://www.youtube.com/embed/1UkDaiRGShM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<h3 id="importing-data-and-creating-a-report">2.3 Importing data and creating a report</h3>
-<p><a href="../data/companies_2020_10000_v001.csv">CSV-download</a></p>
-<iframe src="https://player.vimeo.com/video/305761177?color=90cc93&amp;portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
-</iframe>
-<h3 id="build-data-model-with-more-data">2.4 Build data model with more data</h3>
-<p>Nace-code descriptions from Eurostat: <a href="https://ec.europa.eu/eurostat/web/nace-rev2/correspondence_tables"> Excelfile </a></p>
+<h3 id="building-a-data-model">2.3 Building a data model</h3>
+<p>When you start use Power BI you should try to understand the recommended way to organize you data into a model. Its a fundamental part of the Power BI workflow, and avoiding could case bad performance and/or errors in your results. The recommended way to build up a data model in Power BI is called <em>star schema</em>:</p>
+<p><strong>Whats the deal with star schemas in Power BI?</strong> <iframe width="560" height="315" src="https://www.youtube.com/embed/vZndrBBPiQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>A common problem for newcomers to Power BI is understand how to handle <em>dates</em>! Basically, the answer amounts to including a separat date-dimension-table. This is such a fundamental part of any Power BI workflow that I would recommend setting up a template project that prompts for the start- and -stopdates of your datetable. Then you never have to think about it again!! While your at it, you can also disable the automatic time intelligence in the settings.</p>
+<p><strong>How to create a datetable?</strong> <iframe width="560" height="315" src="https://www.youtube.com/embed/Pzn2B4laK9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Since I mentioned template-projects and parameters, Im also gonna share a video that shows how to set ut up:</p>
+<p><strong>Parameters and template-projects</strong> <iframe width="560" height="315" src="https://www.youtube.com/embed/JlUfz18cx_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <iframe src="https://player.vimeo.com/video/305761177?color=90cc93&amp;portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
 </iframe>
 <p>–&gt;</p>
