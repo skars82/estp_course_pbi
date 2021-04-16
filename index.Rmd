@@ -61,11 +61,16 @@ This video gives you a nice introduction to what Power BI is:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vqz2d7pTOV8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### 2.2 Fundamentals Power BI and data visualization
+### 2.2 Importing data
 
-- Power BIs platform for sharing reports
+Importing data is fundamental step in data-tool. Power BI makes this very easy and can connect a large amount of data sources: 
 
-<!--
+**Importing csv-files**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wuLnv3QJCHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Example with a SQL server database (with parameters)**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1UkDaiRGShM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### 2.3 Importing data and creating a report
 <a href="../data/companies_2020_10000_v001.csv">CSV-download</a>
