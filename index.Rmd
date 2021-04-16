@@ -85,35 +85,36 @@ Nace-code descriptions from Eurostat: <a href="https://ec.europa.eu/eurostat/web
 <a href="https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes">Documentation: Use report themes in Power BI Desktop</a>
 
 ### 2.6 Import data from Eurostat API using a custom connector
-<iframe src="https://player.vimeo.com/video/536746730?color=90cc93&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/536746730?color=90cc93&portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 
-- Download the connector .mez-file: <a href="https://github.com/eurostat/PowerBI-connector/blob/master/Eurostat%20API.mez">press download on this page"</a>
+- Download the connector .mez-file: <a href="https://github.com/eurostat/PowerBI-connector/blob/master/Eurostat%20API.mez" target="_blank" >press download on this page"</a>
 - Make a folder here: 'C:\\Users\\[username]\\Documents\\Microsoft Power BI Desktop\\Custom Connectors'
 - Add the .mez-file in the folder
 - Change setting in Power BI > Security > Allow Data Extensions, restart Power BI
 
-
 <!--
+### 2.7 Import NACE-codelist from  Eurostat
+-->
 
-### 2.7 Import data from SSBs APIs
 
-Import data from KLASS
+### 2.7 Import data from SSBs APIs - Import data from KLASS
 
-<iframe src="https://player.vimeo.com/video/305761177?color=90cc93&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/537588889?color=90cc93&portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 <a href="https://www.ssb.no/en/klass/">ssb.no/en/klass/</a>
 
 - Browse to the variant or correspondance you are after
 - Note id at the end of the URL
-- Change the code to reflect the ID, or maybe klassType to "variants"
+- Change the code to reflect the ID, or maybe klassType to "variants" / "versions" etc.
 - Check the documentation of the API: <a href="https://data.ssb.no/api/klass/v1/api-guide.html">data.ssb.no/api/klass"</a>
 
 
--->
-
-#### "Get data > Blank query > Advanced Editor":
+<details>
+<summary>Code to paste under: "Get data > Blank query > Advanced Editor"</summary>
 <script src="https://gist.github.com/aecorn/a3f42cc730f12d6b8070ebf6e7d1da1e.js"></script>
+</details>
+
 ### 2.8 Import data from STATBANK
 
 <iframe src="https://player.vimeo.com/video/536752553?color=90cc93&portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
@@ -126,11 +127,17 @@ Import data from KLASS
 - Expand the "API-query box" at the bottom of the page after following the whole web-interface.
 - You might have to replace single double-quotes, with double double-quotes.
 
+<details>
+<summary>Code to paste under: Get data > Blank query > Advanced Editor</summary>
+<script src="https://gist.github.com/aecorn/0adf2cf352a889a769bb5f63c6a59a0d.js"></script>
+</details>
+
 <iframe src="https://player.vimeo.com/video/536743890?color=90cc93&portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
-
-#### "Get data > Blank query > Advanced Editor":
-<script src="https://gist.github.com/aecorn/0adf2cf352a889a769bb5f63c6a59a0d.js"></script>
+<details>
+<summary>Working example of Python-script for getting a statbank table.</summary>
+<script src="https://gist.github.com/aecorn/e833246f39255df94e3876c467b3046b.js"></script>
+</details>
 
 
 
