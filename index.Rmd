@@ -90,11 +90,18 @@ Since I mentioned template-projects and parameters, Im also gonna share a video 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JlUfz18cx_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-### 2.5 Themes and sharing JSON-files
-<iframe src="https://player.vimeo.com/video/537137641?color=90cc93&portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-<a href="https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes">Documentation: Use report themes in Power BI Desktop</a>
+### 2.4 Themes and sharing JSON-files
 
-### 2.6 Import data from Eurostat API using a custom connector
+Colors, fonts and other design-elements are inevitably a big part visualizing data, and are usually subject to stricts rules from your organization. We recommend that apply the desired design-principles using json-files. Its really easy and very fast. Check out this video that Carl made:
+
+**Themes with json**
+<iframe src="https://player.vimeo.com/video/537137641?color=90cc93&portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<a href="https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes">Official documentation: Use report themes in Power BI Desktop</a>
+
+### 2.5 Import data from Eurostat API using a custom connector
+
+We just found out about this trick a few weeks ago, through [Eurostats Github-page](https://github.com/eurostat/PowerBI-connector). Please take advantage of all the great data thats in these databases. Again, Carl shows you how:
+
 <iframe src="https://player.vimeo.com/video/536746730?color=90cc93&portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 
