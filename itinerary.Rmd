@@ -16,14 +16,14 @@ knitr::opts_chunk$set(echo = FALSE)
 | What                        | Who    |
 | --------------------------- | ------ |
 | Introduction                | Øyvind |
-| Fundamentals of Power BI    | Carl   |
+| Fundamentals of Power BI    | Øyvind |
 | Importing data              | Øyvind |
 | Cleaning data               | Øyvind |
 | Building a data model       | Øyvind |
-| Visualizations              | Carl   |
 | Calculations                | Øyvind |
-| Beautify your report        | Øyvind |
-| Some more advanced features | Øyvind |
+| Visualizations              | Carl   |
+| Beautify your report        | Carl   |
+| Tomorrows project           | Øyvind |
 
 
 # **DAY 2**
