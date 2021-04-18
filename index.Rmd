@@ -74,7 +74,7 @@ Importing data is fundamental step in data-tool. Power BI makes this very easy a
 
 ### 2.3 Building a data model
 
-When you start use Power BI you should try to understand the recommended way to organize you data into a model. Its a fundamental part of the Power BI workflow, and avoiding could case bad performance and/or errors in your results. The recommended way to build up a data model in Power BI is called *star schema*: 
+When you start use Power BI you should try to understand the recommended way to organize you data into a model. Its a fundamental part of the Power BI workflow, and avoiding could case bad performance and/or errors in your results. The recommended way to build up a data model in Power BI is called *star schema* ([see official documentation](https://docs.microsoft.com/en-us/power-bi/guidance/star-schema)): 
 
 **Whats the deal with star schemas in Power BI?**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vZndrBBPiQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
