@@ -61,11 +61,13 @@ This video gives you a nice introduction to what Power BI is:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vqz2d7pTOV8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<!--
+
 ### 2.2 Fundamentals Power BI and data visualization
 
 - Power BIs platform for sharing reports
 
-<!--
+
 
 ### 2.3 Importing data and creating a report
 <a href="../data/companies_2020_10000_v001.csv">CSV-download</a>
@@ -144,3 +146,15 @@ Nace-code descriptions from Eurostat: <a href="https://ec.europa.eu/eurostat/web
 ### 2.9 Visualize with Python and Seaborn
 <iframe src="https://player.vimeo.com/video/536747489?color=90cc93&portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
+
+<details>
+<summary>Python-code for density&violin visualizations</summary>
+<script src="https://gist.github.com/aecorn/8ef142cd9f5e15b6d8f606f2f3cb3f2b.js"></script>
+</details>
+
+
+<details>
+<summary>Embed-testing after license recieved</summary>
+
+<iframe width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiOGU5ODc3ODYtNjhjNS00ZGY0LWIzODUtMmUyZmFlYWJkMGU1IiwidCI6ImM3MjE3MDkyLWIyNDAtNGUxZC1iZDYxLWZhOTdiYTk3NWNiYyIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
+</details>
