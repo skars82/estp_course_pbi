@@ -2189,10 +2189,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* Add any additional CSS rules below                      */
 
   body {
-    
     background-color: #F9FAFA;
-
   }
+
+
+  ul {
+    list-style: none;
+  }
+
+  li::before {
+    content: "• ";
+    color: #F2C811;
+    padding-right: 10px;
+  }
+
+  details > summary {
+    background-color: #F2C811;
+    color: #F9FAFA;
+    cursor: pointer;
+    padding: 4px;
+    margin: 0;
+    /*box-shadow: 1px 1px 2px #bbbbbb;*/
+  }
+
 
 
   </style>
@@ -2442,11 +2461,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <li><a href="#resources">2. Resources</a>
 <ul>
 <li><a href="#what-is-power-bi">2.1 What is Power BI?</a></li>
-<li><a href="#themes-and-sharing-json-files">2.5 Themes and sharing JSON-files</a></li>
+
+<li><a href="#importing-data">2.2 Importing data</a></li>
+<li><a href="#building-a-data-model">2.3 Building a data model</a></li>
+<li><a href="#themes-and-sharing-json-files">2.4 Themes and sharing JSON-files</a></li>
+<li><a href="#import-data-from-ssbs-apis---import-data-from-klass">2.5 Import data from SSBs APIs - Import data from KLASS</a></li>
 <li><a href="#import-data-from-eurostat-api-using-a-custom-connector">2.6 Import data from Eurostat API using a custom connector</a></li>
-<li><a href="#import-data-from-ssbs-apis---import-data-from-klass">2.7 Import data from SSBs APIs - Import data from KLASS</a></li>
-<li><a href="#import-data-from-statbank">2.8 Import data from STATBANK</a></li>
-<li><a href="#visualize-with-python-and-seaborn">2.9 Visualize with Python and Seaborn</a></li>
+<li><a href="#import-data-from-statbank">2.7 Import data from STATBANK</a></li>
+<li><a href="#visualize-with-python-and-seaborn">2.8 Visualize with Python and Seaborn</a></li>
+  
 </ul></li>
 </ul>
 </nav>
@@ -2469,43 +2492,21 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <p>This video gives you a nice introduction to what Power BI is:</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Vqz2d7pTOV8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
-<!--
-
-### 2.2 Fundamentals Power BI and data visualization
-
-- Power BIs platform for sharing reports
-
-
-
-### 2.3 Importing data and creating a report
-<a href="../data/companies_2020_10000_v001.csv">CSV-download</a>
-
-<iframe src="https://player.vimeo.com/video/305761177?color=90cc93&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-
-### 2.4 Build data model with more data
-Nace-code descriptions from Eurostat: <a href="https://ec.europa.eu/eurostat/web/nace-rev2/correspondence_tables"> Excelfile </a>
-
-
-<iframe src="https://player.vimeo.com/video/305761177?color=90cc93&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-
--->
-<h3 id="themes-and-sharing-json-files">2.5 Themes and sharing JSON-files</h3>
-<iframe src="https://player.vimeo.com/video/537137641?color=90cc93&amp;portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
-</iframe>
-<p><a href="https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes">Documentation: Use report themes in Power BI Desktop</a></p>
-<h3 id="import-data-from-eurostat-api-using-a-custom-connector">2.6 Import data from Eurostat API using a custom connector</h3>
-<iframe src="https://player.vimeo.com/video/536746730?color=90cc93&amp;portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
-</iframe>
-<ul>
-<li>Download the connector .mez-file: <a href="https://github.com/eurostat/PowerBI-connector/blob/master/Eurostat%20API.mez" target="_blank" >press download on this page"</a></li>
-<li>Make a folder here: ‘C:\Users\[username]\Documents\Microsoft Power BI Desktop\Custom Connectors’</li>
-<li>Add the .mez-file in the folder</li>
-<li>Change setting in Power BI &gt; Security &gt; Allow Data Extensions, restart Power BI</li>
-</ul>
-<!--
-### 2.7 Import NACE-codelist from  Eurostat
--->
-<h3 id="import-data-from-ssbs-apis---import-data-from-klass">2.7 Import data from SSBs APIs - Import data from KLASS</h3>
+<h3 id="importing-data">2.2 Importing data</h3>
+<p>Importing data is fundamental step in data-tool. Power BI makes this very easy and can connect a large amount of data sources:</p>
+<p><strong>Importing csv-files</strong> <iframe width="560" height="315" src="https://www.youtube.com/embed/wuLnv3QJCHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>Example with a SQL server database (with parameters)</strong> <iframe width="560" height="315" src="https://www.youtube.com/embed/1UkDaiRGShM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<h3 id="building-a-data-model">2.3 Building a data model</h3>
+<p>When you start use Power BI you should try to understand the recommended way to organize you data into a model. Its a fundamental part of the Power BI workflow, and avoiding could case bad performance and/or errors in your results. The recommended way to build up a data model in Power BI is called <em>star schema</em> (<a href="https://docs.microsoft.com/en-us/power-bi/guidance/star-schema">see official documentation</a>):</p>
+<p><strong>Whats the deal with star schemas in Power BI?</strong> <iframe width="560" height="315" src="https://www.youtube.com/embed/vZndrBBPiQc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>A common problem for newcomers to Power BI is understand how to handle <em>dates</em>! Basically, the answer amounts to including a separat date-dimension-table. This is such a fundamental part of any Power BI workflow that I would recommend setting up a template project that prompts for the start- and -stopdates of your datetable. Then you never have to think about it again!! While your at it, you can also disable the automatic time intelligence in the settings.</p>
+<p><strong>How to create a datetable?</strong> <iframe width="560" height="315" src="https://www.youtube.com/embed/Pzn2B4laK9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Since I mentioned template-projects and parameters, Im also gonna share a video that shows how to set ut up:</p>
+<p><strong>Parameters and template-projects</strong> <iframe width="560" height="315" src="https://www.youtube.com/embed/JlUfz18cx_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<h3 id="themes-and-sharing-json-files">2.4 Themes and sharing JSON-files</h3>
+<p>Colors, fonts and other design-elements are inevitably a big part visualizing data, and are usually subject to stricts rules from your organization. We recommend that apply the desired design-principles using json-files in Power BI. Its really easy and very fast. Check out this video that Carl made:</p>
+<p><strong>Themes with json</strong> <iframe src="https://player.vimeo.com/video/537137641?color=90cc93&portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> <a href="https://docs.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes">Official documentation: Use report themes in Power BI Desktop</a></p>
+<h3 id="import-data-from-ssbs-apis---import-data-from-klass">2.5 Import data from SSBs APIs - Import data from KLASS</h3>
 <iframe src="https://player.vimeo.com/video/537588889?color=90cc93&amp;portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
 </iframe>
 <p><a href="https://www.ssb.no/en/klass/">ssb.no/en/klass/</a></p>
@@ -2521,7 +2522,20 @@ Code to paste under: “Get data &gt; Blank query &gt; Advanced Editor”
 </summary>
 <script src="https://gist.github.com/aecorn/a3f42cc730f12d6b8070ebf6e7d1da1e.js"></script>
 </details>
-<h3 id="import-data-from-statbank">2.8 Import data from STATBANK</h3>
+<h3 id="import-data-from-eurostat-api-using-a-custom-connector">2.6 Import data from Eurostat API using a custom connector</h3>
+<p>We just found out about this trick a few weeks ago, through <a href="https://github.com/eurostat/PowerBI-connector">Eurostats Github-page</a>. Please take advantage of all the great data thats in these databases. Again, Carl shows you how:</p>
+<iframe src="https://player.vimeo.com/video/536746730?color=90cc93&amp;portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+</iframe>
+<ul>
+<li>Download the connector .mez-file: <a href="https://github.com/eurostat/PowerBI-connector/blob/master/Eurostat%20API.mez" target="_blank" >press download on this page"</a></li>
+<li>Make a folder here: ‘C:\Users\[username]\Documents\Microsoft Power BI Desktop\Custom Connectors’</li>
+<li>Add the .mez-file in the folder</li>
+<li>Change setting in Power BI &gt; Security &gt; Allow Data Extensions, restart Power BI</li>
+</ul>
+<!--
+### 2.7 Import NACE-codelist from  Eurostat
+-->
+<h3 id="import-data-from-statbank">2.7 Import data from STATBANK</h3>
 <iframe src="https://player.vimeo.com/video/536752553?color=90cc93&amp;portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
 </iframe>
 <iframe src="https://player.vimeo.com/video/536754342?color=90cc93&amp;portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
@@ -2546,7 +2560,7 @@ Working example of Python-script for getting a statbank table.
 </summary>
 <script src="https://gist.github.com/aecorn/e833246f39255df94e3876c467b3046b.js"></script>
 </details>
-<h3 id="visualize-with-python-and-seaborn">2.9 Visualize with Python and Seaborn</h3>
+<h3 id="visualize-with-python-and-seaborn">2.8 Visualize with Python and Seaborn</h3>
 <iframe src="https://player.vimeo.com/video/536747489?color=90cc93&amp;portrait=0" width="704" height="396" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
 </iframe>
 <details>

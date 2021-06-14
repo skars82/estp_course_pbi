@@ -16,14 +16,11 @@ knitr::opts_chunk$set(echo = FALSE)
 | What                        | Who    |
 | --------------------------- | ------ |
 | Introduction                | Øyvind |
-| Fundamentals of Power BI    | Carl   |
+| Fundamentals of Power BI    | Øyvind |
 | Importing data              | Øyvind |
 | Cleaning data               | Øyvind |
 | Building a data model       | Øyvind |
-| Visualizations              | Carl   |
-| Calculations                | Øyvind |
-| Beautify your report        | Øyvind |
-| Some more advanced features | Øyvind |
+| Tomorrows project           | Øyvind |
 
 
 # **DAY 2**
@@ -35,9 +32,10 @@ Participants work on their own project the whole day.
 | What                           | Who         |
 | ------------------------------ | ----------- |
 | Show and tell of projects      |             |
-| The importance of the browser  | Carl        |
-| Importing data from Eurostat   | Carl        |
-| Importing classifications      | Carl        |
-| Using R and Python in Power BI | Øyvind/Carl |
-| Button and bookmarks           | Øyvind      |
-| Publishing your report         | Øyvind      |
+| Dax and measures               | Øyvind      |
+| Visualizations                 | Carl        |
+| Beautify your report           | Carl        |
+| Web, Api & classifications     | Carl/Øyvind |
+| Using R and Python in Power BI | Carl        |
+| Parameterize your queries      | Øyvind      |
+| Final discussion               | All         |
